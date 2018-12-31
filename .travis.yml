@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t hayaten0415/DockerPractice -f Dockerfile.dev .
+  - docker build -t hayaten0415/docker-practice -f Dockerfile.dev .
 
 script:
-  - docker run hayaten0415/DockerPractice npm run test -- --coverage
+  - docker run hayaten0415/docker-practice npm run test -- --coverage
