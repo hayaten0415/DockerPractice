@@ -13,7 +13,7 @@ class App extends Component {
           <p
             className="App-intro"
           >
-             I was changed!
+             changed on feature1 branch
           </p>
       </div>
     );
